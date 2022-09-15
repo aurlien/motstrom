@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "motstrom"
+version = "0.1.0"
+description = ""
+authors = ["Kristian Aurlien <kristian@aurlien.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+databutton = "^0.24.5"
+entsoe-client = "^0.1.4"
+
+[tool.poetry.group.dev.dependencies]
+databutton = "^0.24.5"
+black = "^22.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

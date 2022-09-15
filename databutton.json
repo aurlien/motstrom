@@ -1,0 +1,11 @@
+{
+  "uid": "127ccacd-f572-4bf2-b042-5d0ce7f57830",
+  "name": "motstrom",
+  "exclude": [
+    "venv",
+    ".venv",
+    "__pycache__",
+    ".databutton",
+    ".git"
+  ]
+}
